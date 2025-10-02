@@ -1,0 +1,1 @@
+docker run -d --rm --name utec-logger_c -p 3000:3000 -e LOGS_DIR=/logs -v "/home/ubuntu/ingesta/logs:/logs" maykolm/utec-logger
